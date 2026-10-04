@@ -26,9 +26,9 @@ PyTorch's autograd records the relevant operations during the forward pass. Call
 
 For basic SGD, the update is:
 
-$
+```math
 \theta_{\mathrm{new}} = \theta_{\mathrm{old}} - \eta\frac{\partial L}{\partial\theta}
-$
+```
 
 Here, `theta` is a parameter and `eta` is the learning rate. The learning rate controls the step size. A step that is too large can increase the loss.
 
