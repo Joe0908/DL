@@ -4,6 +4,8 @@
 
 The goal is to connect five ideas: data, a model, a loss function, gradients, and parameter updates.
 
+For the idea shared by FNNs, CNNs, RNNs, and Transformers, start with [how neural networks learn](../../README.md#start-here-how-neural-networks-learn). This episode turns that general principle into a runnable example.
+
 ## 1. What is a feedforward neural network?
 
 An FNN passes information from its input through hidden layers to its output. In the forward calculation, information does not loop back into an earlier layer.
